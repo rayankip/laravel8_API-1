@@ -1,7 +1,7 @@
 
 import React from 'react'
 import { Grid,Paper, Avatar, TextField, Button, Typography } from '@material-ui/core'
-import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
+// import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
 import { Link, NavLink } from "react-router-dom";
 import {useState} from 'react';
 import axios from 'axios';
@@ -41,7 +41,7 @@ const Signup=()=>{
         <Grid>
             <Paper elevation={10} style={paperStyle}>
                 <Grid align='center'>
-                     <Avatar style={avatarStyle}><LockOutlinedIcon/></Avatar>
+                     <Avatar style={avatarStyle}></Avatar>
                     <h2>Sign Up</h2>
                     <h3 style={{color:"green"}}>{errors}</h3>
                 </Grid>
